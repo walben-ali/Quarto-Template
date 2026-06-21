@@ -1,0 +1,5 @@
+:::{.content-hidden}
+{{< include _macros.qmd >}}
+:::
+
+# Deriving the 1D Advection Equation

@@ -1,0 +1,74 @@
+<!--- Fonts --->
+
+\providecommand{\B}[1]{\boldsymbol{#1}}
+\providecommand{\mrm}[1]{\mathrm{#1}}
+
+<!--- Sets --->
+
+\providecommand{\CC}{\mathbb{C}}
+\providecommand{\RR}{\mathbb{R}}
+\providecommand{\Rp}{\mathbb{R}_{\geq 0}}
+\providecommand{\NN}{\mathbb{N}}
+
+<!--- Special Characters --->
+
+\providecommand{\ii}{\mathrm{i}}
+\providecommand{\eps}{\varepsilon}
+
+<!--- Functions --->
+
+\providecommand{\Cos}[1]{\cos \left( #1 \right)}
+\providecommand{\Sin}[1]{\sin \left( #1 \right)}
+\providecommand{\ex}[1]{\mathrm{e}^{#1}}
+
+<!--- Linear Algebra --->
+
+\providecommand{\II}{\mathcal{I}}
+
+\providecommand{\Mat}[1]{\begin{pmatrix} #1 \end{pmatrix}}
+\providecommand{\BMat}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+\providecommand{\mat}[1]{\begin{matrix} #1 \end{matrix}}
+
+\providecommand{\Tr}[1]{{#1}^{\mathrm{T}}}
+\providecommand{\He}[1]{{#1}^{\mathrm{H}}}
+
+<!--- Spacing --->
+
+\providecommand{\qiq}{\quad \implies \quad}
+\providecommand{\iq}{\implies \quad}
+\providecommand{\qtq}[1]{\quad \text{#1} \quad}
+\providecommand{\tq}[1]{\text{#1} \quad}
+
+<!--- Arrows --->
+
+\providecommand{\mathimplies}[1]{\quad \xrightarrow[#1]{} \quad}
+\providecommand{\textimplies}[1]{\quad \xrightarrow[\mathrm{#1}]{} \quad}
+
+<!--- Brackets --->
+
+\providecommand{\nbr}[1]{\left( #1 \right)}
+\providecommand{\sbr}[1]{\left[ #1 \right]}
+\providecommand{\cbr}[1]{\left\{ #1 \right\}}
+\providecommand{\abr}[1]{\langle #1 \rangle}
+\providecommand{\abs}[1]{\left| #1 \right|}
+\providecommand{\Norm}[2]{\left\| #1 \right\|_{#2}}
+
+<!--- Calculus --->
+
+\providecommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}}
+\providecommand{\Pdiff}[3]{\frac{\partial^{#3} #1}{\partial #2^{#3}}}
+\providecommand{\bpdiff}[2]{\frac{\partial \boldsymbol{#1}}{\partial #2}}
+
+\providecommand{\odiff}[2]{\frac{\mathrm{d} #1}{\mathrm{d} #2}}
+\providecommand{\Odiff}[3]{\frac{\mathrm{d}^{#3} #1}{\mathrm{d} #2^{#3}}}
+\providecommand{\bodiff}[2]{\frac{\mathrm{d} \boldsymbol{#1}}{\mathrm{d} #2}}
+
+\providecommand{\Integ}[2]{\int \! #1 \; \mathrm{d} #2}
+\providecommand{\integ}[4]{\int\limits_{#1}^{#2} \! #3 \; \mathrm{d} #4}
+
+<!--- Misc --->
+
+\providecommand{\OO}[1]{\mathcal{O}\left(#1\right)}
+\providecommand{\nth}[1]{{#1}^{\mathrm{th}}}
+\providecommand{\E}[1]{\times 10^{#1}}
+\providecommand{\degC}{^{\circ} \mathrm{C}}

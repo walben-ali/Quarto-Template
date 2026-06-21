@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Template",
+    "section": "",
+    "text": "Preface\nThis is a Quatro template for lecture material.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "0_Intro.html",
+    "href": "0_Intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Figure 1.1: The different topics and ideas that go into climate change research.\n\n\n\nA secondary part of this unit will involve more in-depth analysis of the physical models that govern the Climate Models in Figure 1.1. This shifts the emphasis from conceptual models to a greater focus on the underlying physics, this also falls into the category of Mathematical Geoscience or Fluid Mechanics.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "01_Part1.html",
+    "href": "01_Part1.html",
+    "title": "Practical Applied Mathematics",
+    "section": "",
+    "text": "This part of the unit will cover some of the introductory material that will prove useful in applied mathematics. Some of these topics might have been seen in other units but they will be repeated here, although in less details. The main topics are Dimensional Analysis and Perturbation Theory.",
+    "crumbs": [
+      "Practical Applied Mathematics"
+    ]
+  },
+  {
+    "objectID": "01_1_Chap1.html",
+    "href": "01_1_Chap1.html",
+    "title": "2  Notation",
+    "section": "",
+    "text": "2.1 Similarity Notation",
+    "crumbs": [
+      "Practical Applied Mathematics",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Notation</span>"
+    ]
+  },
+  {
+    "objectID": "01_1_Chap1.html#similarity-notation",
+    "href": "01_1_Chap1.html#similarity-notation",
+    "title": "2  Notation",
+    "section": "",
+    "text": "NoteLittle-o Notation\n\n\n\nSometimes, books might use the Little-o notation in the case when the constant \\(M=0\\).",
+    "crumbs": [
+      "Practical Applied Mathematics",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Notation</span>"
+    ]
+  },
+  {
+    "objectID": "02_1_Chap2.html",
+    "href": "02_1_Chap2.html",
+    "title": "3  Problem Sheet 1",
+    "section": "",
+    "text": "3.1 Corollary of FTC",
+    "crumbs": [
+      "Problem Sheets",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Problem Sheet 1</span>"
+    ]
+  }
+]

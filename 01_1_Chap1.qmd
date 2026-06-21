@@ -1,0 +1,13 @@
+:::{.content-hidden}
+{{< include _macros.qmd >}}
+:::
+
+# Notation
+
+## Similarity Notation
+
+:::{.callout-note}
+## Little-o Notation
+
+Sometimes, books might use the ***Little-o*** notation in the case when the constant $M=0$.
+:::

@@ -1,0 +1,3 @@
+# Practical Applied Mathematics
+
+This part of the unit will cover some of the introductory material that will prove useful in applied mathematics.  Some of these topics might have been seen in other units but they will be repeated here, although in less details.  The main topics are **Dimensional Analysis** and **Perturbation Theory**.

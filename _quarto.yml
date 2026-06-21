@@ -1,0 +1,49 @@
+project:
+     type: book
+     output-dir: docs
+
+book:
+     title: "Template"
+     author: "Waleed A A Ali"
+     chapters:
+          - index.qmd
+          - 0_Intro.qmd
+          - part: 01_Part1.qmd
+            chapters:
+                 - 01_1_Chap1.qmd
+          - part: 02_Part2.qmd
+            chapters:
+               - 02_1_Chap2.qmd
+          - Ref.qmd
+     appendices:
+          - App1.qmd
+     downloads: [pdf,docx,epub]
+
+format:
+     html:
+          theme:
+               light: [flatly,styleL.scss]
+               dark:  [darkly,styleD.scss]
+          respect-user-color-scheme: false
+          code-fold: true
+          mainfont: Computer Modern Roman
+          fontsize: 1.125rem
+          page-layout: full
+          code-link: true
+          footnotes-hover: true
+          code-line-numbers: true
+          fig-align: center
+          include-in-header: "font-controls.html"
+          lightbox: true
+     pdf:
+          toc: true
+          documentclass: scrreport
+          papersize: a4
+          code-line-numbers: true
+          pdf-engine: pdflatex
+     docx:
+          toc: true
+     epub: default
+
+bibliography: references.bib
+link-citations: true
