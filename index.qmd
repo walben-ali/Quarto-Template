@@ -1,3 +1,5 @@
 # Preface {.unnumbered}
 
-This is a Quatro template for lecture material.
+This is a Quarto template for lecture material.  This template will contain as much of the necessary instructions as possible.
+
+Rendering this document will produce four outputs: html, PDF, docx and epub.  All these can be downloaded from the download button on the left.  This document will also have a built-in dark mode.  The html file will have three possible font styles and sizes for ease of accessibility.

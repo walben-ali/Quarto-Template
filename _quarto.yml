@@ -3,17 +3,16 @@ project:
      output-dir: docs
 
 book:
-     title: "Template"
+     title: "Quarto Template"
      author: "Waleed A A Ali"
      chapters:
           - index.qmd
           - 0_Intro.qmd
-          - part: 01_Part1.qmd
+          - part: 01_0_Part1.qmd
             chapters:
-                 - 01_1_Chap1.qmd
-          - part: 02_Part2.qmd
-            chapters:
-               - 02_1_Chap2.qmd
+                 - 01_1_Common.qmd
+                 - 01_2_Maths.qmd
+                 - 01_3_Embed.qmd
           - Ref.qmd
      appendices:
           - App1.qmd
@@ -46,4 +45,8 @@ format:
      epub: default
 
 bibliography: references.bib
+csl: harvard-university-of-bath.csl
+nocite: |
+        @*
+
 link-citations: true

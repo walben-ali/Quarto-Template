@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Appendix A — Deriving the 1D Advection Equation – Template</title>
+<title>Appendix A — Appendix of Things – Quarto Template</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -359,11 +379,11 @@ ul.task-list li input[type="checkbox"] {
 
   const SIZES = [
 
-    { id: 'small', label: 'Small', css: '0.9rem' },
+    { id: 'small', label: 'Small', css: '0.8rem' },
 
     { id: 'medium', label: 'Medium', css: '1rem' },
 
-    { id: 'large', label: 'Large', css: '1.15rem' }
+    { id: 'large', label: 'Large', css: '1.2rem' }
 
   ];
 
@@ -865,7 +885,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./App1.html">Appendices</a></li><li class="breadcrumb-item"><a href="./App1.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Deriving the 1D Advection Equation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./App1.html">Appendices</a></li><li class="breadcrumb-item"><a href="./App1.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Appendix of Things</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -880,25 +900,25 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Template</a> 
+      <a href="./">Quarto Template</a> 
         <div class="sidebar-tools-main">
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Template.pdf">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Quarto-Template.pdf">
               <i class="bi bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Template.docx">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Quarto-Template.docx">
               <i class="bi bi-file-word pe-1"></i>
             Download Docx
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Template.epub">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Quarto-Template.epub">
               <i class="bi bi-journal pe-1"></i>
             Download ePub
             </a>
@@ -925,13 +945,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0_Intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">General Layout</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./01_Part1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practical Applied Mathematics</span></a>
+            <a href="./01_0_Part1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">General Document Editing</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -939,25 +959,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01_1_Chap1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Notation</span></span></a>
+  <a href="./01_1_Common.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Common Usage</span></span></a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="./02_Part2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Problem Sheets</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02_1_Chap2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Problem Sheet 1</span></span></a>
+  <a href="./01_2_Maths.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Writing Maths</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01_3_Embed.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Embedding into Quarto</span></span></a>
   </div>
 </li>
       </ul>
@@ -970,17 +985,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./App1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Deriving the 1D Advection Equation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Appendix of Things</span></span></a>
   </div>
 </li>
       </ul>
@@ -997,9 +1012,9 @@ ul.task-list li input[type="checkbox"] {
 <main class="content column-page-right" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./App1.html">Appendices</a></li><li class="breadcrumb-item"><a href="./App1.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Deriving the 1D Advection Equation</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./App1.html">Appendices</a></li><li class="breadcrumb-item"><a href="./App1.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Appendix of Things</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Appendix A — Deriving the 1D Advection Equation</h1>
+<h1 class="title"><span id="sec-App1" class="quarto-section-identifier">Appendix A — Appendix of Things</span></h1>
 </div>
 
 
@@ -1016,8 +1031,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Some appendix that appears after the main text.</p>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-Burrell1973" class="csl-entry" role="listitem">
+Burrell, J.G., 1973. <em>The importance of school tours in education</em>. Thesis (M.A.). Queen’s University, Belfast.
+</div>
+<div id="ref-Devlin2021" class="csl-entry" role="listitem">
+Devlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. <em>PLOS Computational Biology <span class="upright">[Online]</span></em> [Online], 17(11). Available from: <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501</a>.
+</div>
+<div id="ref-Haynes2014" class="csl-entry" role="listitem">
+Haynes, W.M., 2014. <em>CRC handbook of chemistry and physics. [Online]</em> [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: <a href="http://www.hbcpnetbase.com">http://www.hbcpnetbase.com</a>.
+</div>
+<div id="ref-WHO2018" class="csl-entry" role="listitem">
+Organization, W.H., 2018. <em>The top 10 causes of death. [Online]</em> [Online]. Geneva: World Health Organization. Available from: <a href="https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death">https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death</a>.
+</div>
+<div id="ref-Rang2012" class="csl-entry" role="listitem">
+Rang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. <em>Rang and dale’s pharmacology</em>. 7th ed. Edinburgh: Elsevier Churchill Livingstone.
+</div>
+<div id="ref-Stieg1981" class="csl-entry" role="listitem">
+Stieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. <em>Library Journal</em>, 105(22), pp.2547–2551.
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

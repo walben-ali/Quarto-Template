@@ -2,4 +2,6 @@
 {{< include _macros.qmd >}}
 :::
 
-# Deriving the 1D Advection Equation
+# Appendix of Things {#sec-App1}
+
+Some appendix that appears after the main text.

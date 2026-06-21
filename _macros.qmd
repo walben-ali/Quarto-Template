@@ -5,10 +5,10 @@
 
 <!--- Sets --->
 
-\providecommand{\CC}{\mathbb{C}}
+\providecommand{\NN}{\mathbb{N}}
 \providecommand{\RR}{\mathbb{R}}
 \providecommand{\Rp}{\mathbb{R}_{\geq 0}}
-\providecommand{\NN}{\mathbb{N}}
+\providecommand{\CC}{\mathbb{C}}
 
 <!--- Special Characters --->
 
@@ -17,8 +17,8 @@
 
 <!--- Functions --->
 
-\providecommand{\Cos}[1]{\cos \left( #1 \right)}
 \providecommand{\Sin}[1]{\sin \left( #1 \right)}
+\providecommand{\Cos}[1]{\cos \left( #1 \right)}
 \providecommand{\ex}[1]{\mathrm{e}^{#1}}
 
 <!--- Linear Algebra --->
@@ -38,6 +38,7 @@
 \providecommand{\iq}{\implies \quad}
 \providecommand{\qtq}[1]{\quad \text{#1} \quad}
 \providecommand{\tq}[1]{\text{#1} \quad}
+\providecommand{\qt}[1]{\quad \text{#1}}
 
 <!--- Arrows --->
 
@@ -51,17 +52,18 @@
 \providecommand{\cbr}[1]{\left\{ #1 \right\}}
 \providecommand{\abr}[1]{\langle #1 \rangle}
 \providecommand{\abs}[1]{\left| #1 \right|}
+\providecommand{\norm}[1]{\left\| #1 \right\|}
 \providecommand{\Norm}[2]{\left\| #1 \right\|_{#2}}
 
 <!--- Calculus --->
 
-\providecommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}}
-\providecommand{\Pdiff}[3]{\frac{\partial^{#3} #1}{\partial #2^{#3}}}
-\providecommand{\bpdiff}[2]{\frac{\partial \boldsymbol{#1}}{\partial #2}}
-
 \providecommand{\odiff}[2]{\frac{\mathrm{d} #1}{\mathrm{d} #2}}
 \providecommand{\Odiff}[3]{\frac{\mathrm{d}^{#3} #1}{\mathrm{d} #2^{#3}}}
 \providecommand{\bodiff}[2]{\frac{\mathrm{d} \boldsymbol{#1}}{\mathrm{d} #2}}
+
+\providecommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}}
+\providecommand{\Pdiff}[3]{\frac{\partial^{#3} #1}{\partial #2^{#3}}}
+\providecommand{\bpdiff}[2]{\frac{\partial \boldsymbol{#1}}{\partial #2}}
 
 \providecommand{\Integ}[2]{\int \! #1 \; \mathrm{d} #2}
 \providecommand{\integ}[4]{\int\limits_{#1}^{#2} \! #3 \; \mathrm{d} #4}

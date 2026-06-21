@@ -1,7 +1,0 @@
-:::{.content-hidden}
-{{< include _macros.qmd >}}
-:::
-
-# Problem Sheet 1
-
-## Corollary of FTC

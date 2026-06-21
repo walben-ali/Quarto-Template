@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Introduction – Template</title>
+<title>1&nbsp; General Layout – Quarto Template</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,7 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./01_Part1.html" rel="next">
+<link href="./01_0_Part1.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -47,9 +67,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-102951912b972b210156c0cb7ff21239.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-152c9bfbeeafce781d45a7495c501d9a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-102951912b972b210156c0cb7ff21239.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -363,11 +380,11 @@ ul.task-list li input[type="checkbox"] {
 
   const SIZES = [
 
-    { id: 'small', label: 'Small', css: '0.9rem' },
+    { id: 'small', label: 'Small', css: '0.8rem' },
 
     { id: 'medium', label: 'Medium', css: '1rem' },
 
-    { id: 'large', label: 'Large', css: '1.15rem' }
+    { id: 'large', label: 'Large', css: '1.2rem' }
 
   ];
 
@@ -869,7 +886,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0_Intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0_Intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">General Layout</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -884,25 +901,25 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Template</a> 
+      <a href="./">Quarto Template</a> 
         <div class="sidebar-tools-main">
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Template.pdf">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Quarto-Template.pdf">
               <i class="bi bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Template.docx">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Quarto-Template.docx">
               <i class="bi bi-file-word pe-1"></i>
             Download Docx
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Template.epub">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Quarto-Template.epub">
               <i class="bi bi-journal pe-1"></i>
             Download ePub
             </a>
@@ -929,13 +946,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0_Intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">General Layout</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./01_Part1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practical Applied Mathematics</span></a>
+            <a href="./01_0_Part1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">General Document Editing</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -943,25 +960,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01_1_Chap1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Notation</span></span></a>
+  <a href="./01_1_Common.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Common Usage</span></span></a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="./02_Part2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Problem Sheets</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02_1_Chap2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Problem Sheet 1</span></span></a>
+  <a href="./01_2_Maths.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Writing Maths</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01_3_Embed.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Embedding into Quarto</span></span></a>
   </div>
 </li>
       </ul>
@@ -974,17 +986,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./App1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Deriving the 1D Advection Equation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Appendix of Things</span></span></a>
   </div>
 </li>
       </ul>
@@ -994,21 +1006,35 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-ChapterLabel" id="toc-sec-ChapterLabel" class="nav-link active" data-scroll-target="#sec-ChapterLabel"><span class="header-section-number">2</span> Chapter</a>
+  <ul class="collapse">
+  <li><a href="#sec-SectionLabel" id="toc-sec-SectionLabel" class="nav-link" data-scroll-target="#sec-SectionLabel"><span class="header-section-number">2.1</span> Section</a>
+  <ul class="collapse">
+  <li><a href="#sec-SubsectionLabel" id="toc-sec-SubsectionLabel" class="nav-link" data-scroll-target="#sec-SubsectionLabel"><span class="header-section-number">2.1.1</span> Subsection</a></li>
+  </ul></li>
+  <li><a href="#sec-Fonts" id="toc-sec-Fonts" class="nav-link" data-scroll-target="#sec-Fonts"><span class="header-section-number">2.2</span> Fonts</a></li>
+  <li><a href="#sec-Ref" id="toc-sec-Ref" class="nav-link" data-scroll-target="#sec-Ref"><span class="header-section-number">2.3</span> References</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">General Layout</span></h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -1020,19 +1046,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="fig-Nature" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-Nature-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figures/Nature.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1.1: The different topics and ideas that go into climate change research."><img src="figures/Nature.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Nature-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: The different topics and ideas that go into climate change research.
-</figcaption>
-</figure>
-</div>
-<p>A secondary part of this unit will involve more in-depth analysis of the physical models that govern the <em>Climate Models</em> in <a href="#fig-Nature" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>. This shifts the emphasis from conceptual models to a greater focus on the underlying physics, this also falls into the category of Mathematical Geoscience or Fluid Mechanics.</p>
+<p>All chapters should start with <code>#</code>. Subsequent headings would start with more <code>#</code>. For cross-referencing, all chapters and sections can be labelled using <code>{#sec-NAME}</code> and then referred to using <code>@sec-NAME</code>. Sections can also be unnumbered by adding <code>{.unnumbered}</code>.</p>
+<section id="sec-ChapterLabel" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Chapter</h1>
+<section id="sec-SectionLabel" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sec-SectionLabel"><span class="header-section-number">2.1</span> Section</h2>
+<section id="sec-SubsectionLabel" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="sec-SubsectionLabel"><span class="header-section-number">2.1.1</span> Subsection</h3>
+<section id="subsubsection" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="subsubsection">Subsubsection</h4>
+<section id="subsubsubsection" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="subsubsubsection">Subsubsubsection</h5>
+<p>These can be referred to using <a href="#sec-ChapterLabel" class="quarto-xref"><span>Chapter 2</span></a>. Appendix sections can also be referenced in the same way as <a href="App1.html" class="quarto-xref"><span>Appendix A</span></a>.</p>
+</section>
+</section>
+</section>
+</section>
+<section id="sec-Fonts" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="sec-Fonts"><span class="header-section-number">2.2</span> Fonts</h2>
+<p>The three main fonts are <em>italic</em> using <code>*...*</code>, <strong>bold</strong> using <code>**...**</code> and <strong><em>bold-italic</em></strong> using <code>***...***</code>.</p>
+</section>
+<section id="sec-Ref" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="sec-Ref"><span class="header-section-number">2.3</span> References</h2>
+<p>The references should all be placed in the <code>references.bib</code> file and laid out in a format similar to BibTex. The references will be displayed in the References chapter in alphabetical order (even the uncited ones) under the Harvard-Bath referencing style (refer to the <a href="documents/Referencing.pdf">Harvard-Bath referencing document</a>).</p>
+<p>Citations can be made using <code>@</code> and the references will appear as <span class="citation" data-cites="Rang2012">Rang et al. (<a href="Ref.html#ref-Rang2012" role="doc-biblioref">2012</a>)</span>, <span class="citation" data-cites="Haynes2014">Haynes (<a href="Ref.html#ref-Haynes2014" role="doc-biblioref">2014</a>)</span>, <span class="citation" data-cites="Stieg1981">Stieg (<a href="Ref.html#ref-Stieg1981" role="doc-biblioref">1981</a>)</span> and <span class="citation" data-cites="Devlin2021">Devlin, Martin and Ostrovnaya (<a href="Ref.html#ref-Devlin2021" role="doc-biblioref">2021</a>)</span>.</p>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-Burrell1973" class="csl-entry" role="listitem">
+Burrell, J.G., 1973. <em>The importance of school tours in education</em>. Thesis (M.A.). Queen’s University, Belfast.
+</div>
+<div id="ref-Devlin2021" class="csl-entry" role="listitem">
+Devlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. <em>PLOS Computational Biology <span class="upright">[Online]</span></em> [Online], 17(11). Available from: <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501</a>.
+</div>
+<div id="ref-Haynes2014" class="csl-entry" role="listitem">
+Haynes, W.M., 2014. <em>CRC handbook of chemistry and physics. [Online]</em> [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: <a href="http://www.hbcpnetbase.com">http://www.hbcpnetbase.com</a>.
+</div>
+<div id="ref-WHO2018" class="csl-entry" role="listitem">
+Organization, W.H., 2018. <em>The top 10 causes of death. [Online]</em> [Online]. Geneva: World Health Organization. Available from: <a href="https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death">https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death</a>.
+</div>
+<div id="ref-Rang2012" class="csl-entry" role="listitem">
+Rang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. <em>Rang and dale’s pharmacology</em>. 7th ed. Edinburgh: Elsevier Churchill Livingstone.
+</div>
+<div id="ref-Stieg1981" class="csl-entry" role="listitem">
+Stieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. <em>Library Journal</em>, 105(22), pp.2547–2551.
+</div>
+</div>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1448,51 +1509,19 @@ Figure&nbsp;1.1: The different topics and ideas that go into climate change rese
     }
   });
   </script>
-<nav class="page-navigation column-page-right">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
       <a href="./index.html" class="pagination-link" aria-label="Preface">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./01_Part1.html" class="pagination-link" aria-label="Practical Applied Mathematics">
-        <span class="nav-page-text">Practical Applied Mathematics</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./01_0_Part1.html" class="pagination-link" aria-label="General Document Editing">
+        <span class="nav-page-text">General Document Editing</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

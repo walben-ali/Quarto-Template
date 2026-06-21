@@ -1,5 +1,21 @@
-# Introduction
+# General Layout
 
-![The different topics and ideas that go into climate change research.](figures/Nature.jpg){#fig-Nature fig-align="center"}
+All chapters should start with `#`.  Subsequent headings would start with more `#`.  For cross-referencing, all chapters and sections can be labelled using `{#sec-NAME}` and then referred to using `@sec-NAME`.  Sections can also be unnumbered by adding `{.unnumbered}`.
 
-A secondary part of this unit will involve more in-depth analysis of the physical models that govern the *Climate Models* in @fig-Nature.  This shifts the emphasis from conceptual models to a greater focus on the underlying physics, this also falls into the category of Mathematical Geoscience or Fluid Mechanics. 
+# Chapter {#sec-ChapterLabel}
+## Section {#sec-SectionLabel}
+### Subsection {#sec-SubsectionLabel}
+#### Subsubsection {.unnumbered}
+##### Subsubsubsection {.unnumbered}
+
+These can be referred to using @sec-ChapterLabel.  Appendix sections can also be referenced in the same way as @sec-App1.
+
+## Fonts {#sec-Fonts}
+
+The three main fonts are *italic* using `*...*`, **bold** using `**...**` and ***bold-italic*** using `***...***`.
+
+## References {#sec-Ref}
+
+The references should all be placed in the `references.bib` file and laid out in a format similar to BibTex.  The references will be displayed in the References chapter in alphabetical order (even the uncited ones) under the Harvard-Bath referencing style (refer to the [Harvard-Bath referencing document](documents/Referencing.pdf)).
+
+Citations can be made using `@` and the references will appear as @Rang2012, @Haynes2014, @Stieg1981 and @Devlin2021.

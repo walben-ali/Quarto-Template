@@ -1,0 +1,18 @@
+:::{.content-hidden}
+{{< include _macros.qmd >}}
+:::
+
+# Writing Maths
+
+In Quarto, maths can be written exactly as it is written in LaTeX in terms of syntax.  Maths can be written in-line using `$...$` as $x=1$, or can be written separately using `$$...$$` as
+$$
+x=1.
+$$
+
+Equations can also be labelled using `#eq-NAME` as
+$$
+x=\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$${#eq-Equation}
+and can be referenced using `@` as @eq-Equation.
+
+Many maths shortcuts have been built into the macros file.
