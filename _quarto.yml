@@ -5,6 +5,7 @@ project:
 book:
      title: "Quarto Template"
      author: "Waleed A A Ali"
+     favicon: figures/favicon.ico
      chapters:
           - index.qmd
           - 01_Intro.qmd
@@ -25,7 +26,7 @@ format:
           respect-user-color-scheme: false
           code-fold: true
           mainfont: Computer Modern Roman
-          fontsize: 1.25rem
+          fontsize: 1.2rem
           page-layout: full
           code-link: true
           footnotes-hover: true
