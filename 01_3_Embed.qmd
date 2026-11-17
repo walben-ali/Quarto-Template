@@ -1,9 +1,0 @@
-:::{.content-hidden}
-{{< include _macros.qmd >}}
-:::
-
-# Embedding into Quarto
-
-Quarto can allow the embedding of lots of possible applications.  For example
-
-<iframe src="https://www.geogebra.org/calculator/afckswtd?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>

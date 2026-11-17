@@ -7,12 +7,11 @@ book:
      author: "Waleed A A Ali"
      chapters:
           - index.qmd
-          - 0_Intro.qmd
-          - part: 01_0_Part1.qmd
+          - 01_Intro.qmd
+          - part: Part1.qmd
             chapters:
-                 - 01_1_Common.qmd
-                 - 01_2_Maths.qmd
-                 - 01_3_Embed.qmd
+                 - 02_Common.qmd
+                 - 03_Embed.qmd
           - Ref.qmd
      appendices:
           - App1.qmd
@@ -26,7 +25,7 @@ format:
           respect-user-color-scheme: false
           code-fold: true
           mainfont: Computer Modern Roman
-          fontsize: 1.125rem
+          fontsize: 1.25rem
           page-layout: full
           code-link: true
           footnotes-hover: true
@@ -34,6 +33,7 @@ format:
           fig-align: center
           include-in-header: "font-controls.html"
           lightbox: true
+          toc-title: "Table of Contents"
      pdf:
           toc: true
           documentclass: scrreport
@@ -43,6 +43,8 @@ format:
      docx:
           toc: true
      epub: default
+
+date-modified: today
 
 bibliography: references.bib
 csl: harvard-university-of-bath.csl

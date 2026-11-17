@@ -1,0 +1,3 @@
+# General Document Editing
+
+The document can be separated into parts with some common theming.  These parts will not be numbered but will be useful for separating the different parts of the whole document.

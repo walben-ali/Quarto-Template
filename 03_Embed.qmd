@@ -1,0 +1,15 @@
+:::{.content-hidden}
+{{< include _macros.qmd >}}
+:::
+
+# Embedding into Quarto
+
+Quarto can allow the embedding of lots of possible applications.
+
+## YouTube Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=RqFdN_C1vL1letrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Geogebra
+
+<iframe src="https://www.geogebra.org/calculator/afckswtd?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>

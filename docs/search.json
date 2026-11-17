@@ -10,58 +10,58 @@
     ]
   },
   {
-    "objectID": "0_Intro.html",
-    "href": "0_Intro.html",
+    "objectID": "01_Intro.html",
+    "href": "01_Intro.html",
     "title": "1  General Layout",
     "section": "",
-    "text": "2 Chapter\nAll chapters should start with #. Subsequent headings would start with more #. For cross-referencing, all chapters and sections can be labelled using {#sec-NAME} and then referred to using @sec-NAME. Sections can also be unnumbered by adding {.unnumbered}.",
+    "text": "1.1 Titles\nAll chapters should start with #. Subsequent headings would start with more #. For cross-referencing, all chapters and sections can be labelled using {#sec-NAME} and then referred to using @sec-NAME. Sections can also be unnumbered by adding {.unnumbered}.\nFor example, this section is titled ## Title {#sec-Titles} and can be referenced using @sec-Titles to display Section 1.1.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>General Layout</span>"
     ]
   },
   {
-    "objectID": "0_Intro.html#sec-SectionLabel",
-    "href": "0_Intro.html#sec-SectionLabel",
+    "objectID": "01_Intro.html#sec-SectionLabel",
+    "href": "01_Intro.html#sec-SectionLabel",
     "title": "1  General Layout",
-    "section": "2.1 Section",
-    "text": "2.1 Section\n\n2.1.1 Subsection\n\nSubsubsection\n\nSubsubsubsection\nThese can be referred to using Chapter 2. Appendix sections can also be referenced in the same way as Appendix A.",
+    "section": "2.1 Sample Section",
+    "text": "2.1 Sample Section\n\n2.1.1 Sample Subsection\n\nSample Subsubsection\n\nSample Subsubsubsection\nChapters, sections and subsections will be displayed in the Table of Contents on the right.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>General Layout</span>"
     ]
   },
   {
-    "objectID": "0_Intro.html#sec-Fonts",
-    "href": "0_Intro.html#sec-Fonts",
+    "objectID": "01_Intro.html#sec-Fonts",
+    "href": "01_Intro.html#sec-Fonts",
     "title": "1  General Layout",
-    "section": "2.2 Fonts",
-    "text": "2.2 Fonts\nThe three main fonts are italic using *...*, bold using **...** and bold-italic using ***...***.",
+    "section": "2.2 Font Styles",
+    "text": "2.2 Font Styles\nThe three main fonts are italic using *...*, bold using **...** and bold-italic using ***...***.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>General Layout</span>"
     ]
   },
   {
-    "objectID": "0_Intro.html#sec-Ref",
-    "href": "0_Intro.html#sec-Ref",
+    "objectID": "01_Intro.html#sec-Ref",
+    "href": "01_Intro.html#sec-Ref",
     "title": "1  General Layout",
     "section": "2.3 References",
-    "text": "2.3 References\nThe references should all be placed in the references.bib file and laid out in a format similar to BibTex. The references will be displayed in the References chapter in alphabetical order (even the uncited ones) under the Harvard-Bath referencing style (refer to the Harvard-Bath referencing document).\nCitations can be made using @ and the references will appear as Rang et al. (2012), Haynes (2014), Stieg (1981) and Devlin, Martin and Ostrovnaya (2021).\n\n\n\n\nBurrell, J.G., 1973. The importance of school tours in education. Thesis (M.A.). Queen’s University, Belfast.\n\n\nDevlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. PLOS Computational Biology [Online] [Online], 17(11). Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501.\n\n\nHaynes, W.M., 2014. CRC handbook of chemistry and physics. [Online] [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: http://www.hbcpnetbase.com.\n\n\nOrganization, W.H., 2018. The top 10 causes of death. [Online] [Online]. Geneva: World Health Organization. Available from: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death.\n\n\nRang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. Rang and dale’s pharmacology. 7th ed. Edinburgh: Elsevier Churchill Livingstone.\n\n\nStieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. Library Journal, 105(22), pp.2547–2551.",
+    "text": "2.3 References\nThe references should all be placed in the references.bib file and laid out in a format similar to BibTex. The references will be displayed in the References chapter in alphabetical order (even the uncited ones) under the Harvard-Bath referencing style (refer to the Harvard-Bath referencing document).\nCitations can be made using @ as @Rang2012 and the reference will appear as Rang et al. (2012).\n\n\n\n\nBurrell, J.G., 1973. The importance of school tours in education. Thesis (M.A.). Queen’s University, Belfast.\n\n\nDevlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. PLOS Computational Biology [Online] [Online], 17(11). Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501.\n\n\nHaynes, W.M., 2014. CRC handbook of chemistry and physics. [Online] [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: http://www.hbcpnetbase.com.\n\n\nOrganization, W.H., 2018. The top 10 causes of death. [Online] [Online]. Geneva: World Health Organization. Available from: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death.\n\n\nRang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. Rang and dale’s pharmacology. 7th ed. Edinburgh: Elsevier Churchill Livingstone.\n\n\nStieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. Library Journal, 105(22), pp.2547–2551.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>General Layout</span>"
     ]
   },
   {
-    "objectID": "01_0_Part1.html",
-    "href": "01_0_Part1.html",
+    "objectID": "Part1.html",
+    "href": "Part1.html",
     "title": "General Document Editing",
     "section": "",
-    "text": "Burrell, J.G., 1973. The importance of school tours in education. Thesis (M.A.). Queen’s University, Belfast.\n\n\nDevlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. PLOS Computational Biology [Online] [Online], 17(11). Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501.\n\n\nHaynes, W.M., 2014. CRC handbook of chemistry and physics. [Online] [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: http://www.hbcpnetbase.com.\n\n\nOrganization, W.H., 2018. The top 10 causes of death. [Online] [Online]. Geneva: World Health Organization. Available from: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death.\n\n\nRang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. Rang and dale’s pharmacology. 7th ed. Edinburgh: Elsevier Churchill Livingstone.\n\n\nStieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. Library Journal, 105(22), pp.2547–2551.",
+    "text": "The document can be separated into parts with some common theming. These parts will not be numbered but will be useful for separating the different parts of the whole document.\n\n\n\n\nBurrell, J.G., 1973. The importance of school tours in education. Thesis (M.A.). Queen’s University, Belfast.\n\n\nDevlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. PLOS Computational Biology [Online] [Online], 17(11). Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501.\n\n\nHaynes, W.M., 2014. CRC handbook of chemistry and physics. [Online] [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: http://www.hbcpnetbase.com.\n\n\nOrganization, W.H., 2018. The top 10 causes of death. [Online] [Online]. Geneva: World Health Organization. Available from: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death.\n\n\nRang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. Rang and dale’s pharmacology. 7th ed. Edinburgh: Elsevier Churchill Livingstone.\n\n\nStieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. Library Journal, 105(22), pp.2547–2551.",
     "crumbs": [
       "General Document Editing"
     ]
   },
   {
-    "objectID": "01_1_Common.html",
-    "href": "01_1_Common.html",
+    "objectID": "02_Common.html",
+    "href": "02_Common.html",
     "title": "2  Common Usage",
     "section": "",
     "text": "2.1 Lists\nUnnumbered lists are generated automatically in Quarto by starting a line with - or * or +.",
@@ -71,8 +71,8 @@
     ]
   },
   {
-    "objectID": "01_1_Common.html#lists",
-    "href": "01_1_Common.html#lists",
+    "objectID": "02_Common.html#lists",
+    "href": "02_Common.html#lists",
     "title": "2  Common Usage",
     "section": "",
     "text": "So a list can start like this,\nThen continues\n\nAnd a sublist can start after that\n\nAnd even more.\n\n\n\n\nNumbered lists are the same\n\nAnd subnumbered lists\n\nAnd more.",
@@ -82,91 +82,113 @@
     ]
   },
   {
-    "objectID": "01_1_Common.html#tables",
-    "href": "01_1_Common.html#tables",
+    "objectID": "02_Common.html#tables",
+    "href": "02_Common.html#tables",
     "title": "2  Common Usage",
     "section": "2.2 Tables",
-    "text": "2.2 Tables\nTables are separated using | with alignments :--:.\n\n\n\nRight\nLeft\nDefault\nCentre\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1",
+    "text": "2.2 Tables\nTables are separated using | with alignments :--:.\n\n\n\nRight\nLeft\nDefault\nCentre\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\nSome more sophisticated tables can be done with merged cells:\n\n\n\n\n\n\n\n\nWeek\nDay\nTopic\n\n\n\n\n1\nTuesday\n\nChapter 1\n\n\n\nThursday\n\nChapter 2\nSection 2.1\nSection 2.2\n\n\n\nFriday\n\nChapter 3\n\n\n\n2\nMonday\n\nSection 3.1.1a\nSection 3.1.5\n\n\n\nWednesday\n\nChapter 4\nChapter 5",
     "crumbs": [
       "General Document Editing",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Common Usage</span>"
     ]
   },
   {
-    "objectID": "01_1_Common.html#callout-blocks",
-    "href": "01_1_Common.html#callout-blocks",
+    "objectID": "02_Common.html#blocks",
+    "href": "02_Common.html#blocks",
     "title": "2  Common Usage",
-    "section": "2.3 Callout Blocks",
-    "text": "2.3 Callout Blocks\nEach callout block style has its own reserved syntax.\n\n\n\n\n\n\nNote\n\n\n\nNote nte\n\n\n\n\n\n\n\n\nWarning\n\n\n\nWarning wrn\n\n\n\n\n\n\n\n\nImportant\n\n\n\nImportant imp\n\n\n\n\n\n\n\n\nTip\n\n\n\nTip tip\n\n\n\n\n\n\n\n\nCaution\n\n\n\nCaution cau\n\n\n\n\n\n\n\n\nNote 2.1: Note Box With Title and Reference\n\n\n\nNote with stuff\n\n\nNote box with label Note 2.1.\n\n\n\n\n\n\nCaution\n\n\n\n\n\nCollapsible caution with no icon\n\n\n\n\nBlockquote",
+    "section": "2.3 Blocks",
+    "text": "2.3 Blocks\n\n2.3.1 Callout Blocks\nCallout blocks can be very useful for separating information. Generally, the callout blocks start with :::{.callout-TYPE} and ends with :::. Each callout block style has its own reserved syntax.\n\n\n\n\n\n\nNote\n\n\n\nNote nte\n\n\n\n\n\n\n\n\nWarning\n\n\n\nWarning wrn\n\n\n\n\n\n\n\n\nImportant\n\n\n\nImportant imp\n\n\n\n\n\n\n\n\nTip\n\n\n\nTip tip\n\n\n\n\n\n\n\n\nCaution\n\n\n\nCaution cau\n\n\n\n2.3.1.1 Options\nCallout blocks can also have their icons removed with icon=false and be collapsible using collapse=true. By default, the callout box will be collapsible and with an icon.\n\n\n\n\n\n\nCaution\n\n\n\n\n\nCollapsible caution with no icon\n\n\n\nCallout boxes can also be titles with ## as the first line of the callout box itself. They can also be labelled with #TYPE-Label and referenced with @TYPE-Label.\n\n\n\n\n\n\nNote 2.1: Note Box With Title and Reference\n\n\n\nNote with stuff\n\n\nNote box with label Note 2.1.\n\n\n\n2.3.2 Quotes\nIf there is a specific quote, then Blockquote needs to be used.\n\nBlockquote\n\n\n\n2.3.3 Footnotes\nFootnotes can also be placed in Quarto using [^LABEL] and the footnote will hover over the clicker1.",
     "crumbs": [
       "General Document Editing",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Common Usage</span>"
     ]
   },
   {
-    "objectID": "01_1_Common.html#theorems",
-    "href": "01_1_Common.html#theorems",
+    "objectID": "02_Common.html#theorems-etc.",
+    "href": "02_Common.html#theorems-etc.",
     "title": "2  Common Usage",
-    "section": "2.4 Theorems",
-    "text": "2.4 Theorems\n\nDefinition 2.1 (Definition) def\n\n\nTheorem 2.1 (Theorem) thm\n\n\nCorollary 2.1 (Corollary) cor\n\n\nLemma 2.1 (Lemma) lem\n\n\nProposition 2.1 (Proposition) prp\n\n\nConjecture 2.1 (Conjecture) cnj\n\n\nExample 2.1 (Example) exm\n\n\nExercise 2.1 (Excersise) exr\n\n\nSolution 2.1 (Solution). sol\n\n\nRemark 2.1 (Remark). rem\n\nThis can be referenced as Theorem 2.1.",
+    "section": "2.4 Theorems etc.",
+    "text": "2.4 Theorems etc.\nTheorems, Definitions and such have their own environment. Generally, the callout blocks start with :::{.callout-TYPE} and ends with :::, each one has its own reserved syntax.\n\nDefinition 2.1 (Definition) def\n\n\nTheorem 2.1 (Theorem) thm\n\n\nCorollary 2.1 (Corollary) cor\n\n\nLemma 2.1 (Lemma) lem\n\n\nProposition 2.1 (Proposition) prp\n\n\nConjecture 2.1 (Conjecture) cnj\n\n\nExample 2.1 (Example) exm\n\n\nExercise 2.1 (Excersise) exr\n\n\nSolution 2.1 (Solution). sol\n\n\nRemark 2.1 (Remark). rem\n\nThis can be referenced as Theorem 2.1.",
     "crumbs": [
       "General Document Editing",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Common Usage</span>"
     ]
   },
   {
-    "objectID": "01_1_Common.html#output-specific-formats",
-    "href": "01_1_Common.html#output-specific-formats",
+    "objectID": "02_Common.html#output-specific-formats",
+    "href": "02_Common.html#output-specific-formats",
     "title": "2  Common Usage",
     "section": "2.5 Output Specific Formats",
-    "text": "2.5 Output Specific Formats\nSometimes there are some outputs that will be displayed only for some formats only, this can be used using a code block as .content-visible while specifying with when-format.\nThings that only appear in HTML version.",
+    "text": "2.5 Output Specific Formats\nSometimes there are some outputs that will be displayed only for one format only and not others (this is useful when there are moving images or embedded dynamic changes). This can be used using a code block as :::{.content-visible when-format=\"TYPE\" where TYPE is html, pdf or docx.\nThings that only appear in HTML version.",
     "crumbs": [
       "General Document Editing",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Common Usage</span>"
     ]
   },
   {
-    "objectID": "01_1_Common.html#figures",
-    "href": "01_1_Common.html#figures",
+    "objectID": "02_Common.html#figures",
+    "href": "02_Common.html#figures",
     "title": "2  Common Usage",
     "section": "2.6 Figures",
-    "text": "2.6 Figures\n\n\n\n\n\n\nFigure 2.1: Image caption here. The image is clickable to enlarge.\n\n\n\nIn Figure Figure 2.1, there is a figure.",
+    "text": "2.6 Figures\nFigures can be inserted using ![Image caption.](figure/directory.png){width=100% fig-align=\"center\" fig-alt=\"Alternative caption.\" #fig-FIGURE_LABEL}. All images are clickable and on a lightbox.\n\n\n\n\n\n\nFigure 2.1: Image caption here. The image is clickable to enlarge.\n\n\n\nFigure can be referenced using @fig-FIGURE_LABEL to give Figure 2.1.",
     "crumbs": [
       "General Document Editing",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Common Usage</span>"
     ]
   },
   {
-    "objectID": "01_1_Common.html#codes",
-    "href": "01_1_Common.html#codes",
+    "objectID": "02_Common.html#codes",
+    "href": "02_Common.html#codes",
     "title": "2  Common Usage",
     "section": "2.7 Codes",
-    "text": "2.7 Codes\nSome codes can be displayed or executed directly in Quarto. Not every programming language can be executed bit Python is one that can be. Executable Python code blocks require {python} but non executable one start with python. Code blocks can also be labelled and captioned with lst-label and lst-cap.\n\n\n\n\nListing 2.1: Sample caption for code.\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nS = 0\n\nfor n in range(1,10):\n    S = S+n\n    plt.plot(n,S,'.k',ms=10)\n\nprint(S)\n\n\n\n\n\n45\n\n\n\n\n\n\n\n\n\nCodes can be referenced using @, like Listing 2.1.\n\n\n\n\nBurrell, J.G., 1973. The importance of school tours in education. Thesis (M.A.). Queen’s University, Belfast.\n\n\nDevlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. PLOS Computational Biology [Online] [Online], 17(11). Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501.\n\n\nHaynes, W.M., 2014. CRC handbook of chemistry and physics. [Online] [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: http://www.hbcpnetbase.com.\n\n\nOrganization, W.H., 2018. The top 10 causes of death. [Online] [Online]. Geneva: World Health Organization. Available from: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death.\n\n\nRang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. Rang and dale’s pharmacology. 7th ed. Edinburgh: Elsevier Churchill Livingstone.\n\n\nStieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. Library Journal, 105(22), pp.2547–2551.",
+    "text": "2.7 Codes\nSome codes can be displayed or executed directly in Quarto. Not every programming language can be executed but Python is one that can be. Executable Python code blocks require {python} but non executable one start with python. Code blocks can also be labelled and captioned with lst-label and lst-cap.\n\n\n\n\nListing 2.1: Sample caption for code.\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nS = 0\n\nfor n in range(1,10):\n    S = S+n\n    plt.plot(n,S,'.k',ms=10)\n\nprint(S)\n\n\n\n\n\n45\n\n\n\n\n\n\n\n\n\nCodes can be referenced using @lst-Sample, like Listing 2.1.",
     "crumbs": [
       "General Document Editing",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Common Usage</span>"
     ]
   },
   {
-    "objectID": "01_2_Maths.html",
-    "href": "01_2_Maths.html",
-    "title": "3  Writing Maths",
-    "section": "",
-    "text": "In Quarto, maths can be written exactly as it is written in LaTeX in terms of syntax. Maths can be written in-line using $...$ as \\(x=1\\), or can be written separately using $$...$$ as \\[\nx=1.\n\\]\nEquations can also be labelled using #eq-NAME as \\[\nx=\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n\\tag{3.1}\\] and can be referenced using @ as Equation 3.1.\nMany maths shortcuts have been built into the macros file.\n\n\n\n\nBurrell, J.G., 1973. The importance of school tours in education. Thesis (M.A.). Queen’s University, Belfast.\n\n\nDevlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. PLOS Computational Biology [Online] [Online], 17(11). Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501.\n\n\nHaynes, W.M., 2014. CRC handbook of chemistry and physics. [Online] [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: http://www.hbcpnetbase.com.\n\n\nOrganization, W.H., 2018. The top 10 causes of death. [Online] [Online]. Geneva: World Health Organization. Available from: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death.\n\n\nRang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. Rang and dale’s pharmacology. 7th ed. Edinburgh: Elsevier Churchill Livingstone.\n\n\nStieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. Library Journal, 105(22), pp.2547–2551.",
+    "objectID": "02_Common.html#writing-mathematics",
+    "href": "02_Common.html#writing-mathematics",
+    "title": "2  Common Usage",
+    "section": "2.8 Writing Mathematics",
+    "text": "2.8 Writing Mathematics\nIn Quarto, maths can be written exactly as it is written in LaTeX in terms of syntax. Maths can be written in-line using $...$ as \\(x=1\\), or can be written separately using $$...$$ as \\[\nx=1.\n\\]\nEquations can also be labelled using #eq-NAME as \\[\nx=\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n\\tag{2.1}\\] and can be referenced using @ as Equation 2.1.\nMany maths shortcuts have been built into the _macros.qmd file.\n\n\n\n\nBurrell, J.G., 1973. The importance of school tours in education. Thesis (M.A.). Queen’s University, Belfast.\n\n\nDevlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. PLOS Computational Biology [Online] [Online], 17(11). Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501.\n\n\nHaynes, W.M., 2014. CRC handbook of chemistry and physics. [Online] [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: http://www.hbcpnetbase.com.\n\n\nOrganization, W.H., 2018. The top 10 causes of death. [Online] [Online]. Geneva: World Health Organization. Available from: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death.\n\n\nRang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. Rang and dale’s pharmacology. 7th ed. Edinburgh: Elsevier Churchill Livingstone.\n\n\nStieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. Library Journal, 105(22), pp.2547–2551.",
     "crumbs": [
       "General Document Editing",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Writing Maths</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Common Usage</span>"
     ]
   },
   {
-    "objectID": "01_3_Embed.html",
-    "href": "01_3_Embed.html",
-    "title": "4  Embedding into Quarto",
+    "objectID": "02_Common.html#footnotes",
+    "href": "02_Common.html#footnotes",
+    "title": "2  Common Usage",
     "section": "",
-    "text": "Quarto can allow the embedding of lots of possible applications. For example\n\n\n\n\n\n\nBurrell, J.G., 1973. The importance of school tours in education. Thesis (M.A.). Queen’s University, Belfast.\n\n\nDevlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. PLOS Computational Biology [Online] [Online], 17(11). Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501.\n\n\nHaynes, W.M., 2014. CRC handbook of chemistry and physics. [Online] [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: http://www.hbcpnetbase.com.\n\n\nOrganization, W.H., 2018. The top 10 causes of death. [Online] [Online]. Geneva: World Health Organization. Available from: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death.\n\n\nRang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. Rang and dale’s pharmacology. 7th ed. Edinburgh: Elsevier Churchill Livingstone.\n\n\nStieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. Library Journal, 105(22), pp.2547–2551.",
+    "text": "Like this.↩︎",
     "crumbs": [
       "General Document Editing",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Embedding into Quarto</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Common Usage</span>"
+    ]
+  },
+  {
+    "objectID": "03_Embed.html",
+    "href": "03_Embed.html",
+    "title": "3  Embedding into Quarto",
+    "section": "",
+    "text": "3.1 YouTube Video\nQuarto can allow the embedding of lots of possible applications.",
+    "crumbs": [
+      "General Document Editing",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Embedding into Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "03_Embed.html#geogebra",
+    "href": "03_Embed.html#geogebra",
+    "title": "3  Embedding into Quarto",
+    "section": "3.2 Geogebra",
+    "text": "3.2 Geogebra\n\n\n\n\n\n\nBurrell, J.G., 1973. The importance of school tours in education. Thesis (M.A.). Queen’s University, Belfast.\n\n\nDevlin, S.M., Martin, A. and Ostrovnaya, I., 2021. Identifying prognostic pairwise relationships among bacterial species in microbiome studies. PLOS Computational Biology [Online] [Online], 17(11). Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009501.\n\n\nHaynes, W.M., 2014. CRC handbook of chemistry and physics. [Online] [Online]. Ed. by W.M. Haynes. 94th ed. Boca Raton, Fla.: CRC Press/Taylor; Francis. Available from: http://www.hbcpnetbase.com.\n\n\nOrganization, W.H., 2018. The top 10 causes of death. [Online] [Online]. Geneva: World Health Organization. Available from: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death.\n\n\nRang, H.P., Dale, M.M., Ritter, J.M., Flower, R.J. and Henderson, G., 2012. Rang and dale’s pharmacology. 7th ed. Edinburgh: Elsevier Churchill Livingstone.\n\n\nStieg, M.F., 1981. Continuing education and the reference librarian in the academic and research library. Library Journal, 105(22), pp.2547–2551.",
+    "crumbs": [
+      "General Document Editing",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Embedding into Quarto</span>"
     ]
   },
   {

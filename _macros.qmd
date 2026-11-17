@@ -9,6 +9,7 @@
 \providecommand{\RR}{\mathbb{R}}
 \providecommand{\Rp}{\mathbb{R}_{\geq 0}}
 \providecommand{\CC}{\mathbb{C}}
+\providecommand{\FF}{\mathbb{F}}
 
 <!--- Special Characters --->
 
@@ -19,15 +20,27 @@
 
 \providecommand{\Sin}[1]{\sin \left( #1 \right)}
 \providecommand{\Cos}[1]{\cos \left( #1 \right)}
+
+\providecommand{\Sinh}[1]{\sinh \left( #1 \right)}
+\providecommand{\Cosh}[1]{\cosh \left( #1 \right)}
+
 \providecommand{\ex}[1]{\mathrm{e}^{#1}}
+
+<!-- Limits -->
+
+\providecommand{\Lim}[3]{\lim\limits_{#1 \to #2}{#3}}
 
 <!--- Linear Algebra --->
 
-\providecommand{\II}{\mathcal{I}}
+\providecommand{\IMat}{\mathcal{I}}
+\providecommand{\ZMat}{\mathcal{O}}
 
 \providecommand{\Mat}[1]{\begin{pmatrix} #1 \end{pmatrix}}
 \providecommand{\BMat}[1]{\begin{bmatrix} #1 \end{bmatrix}}
 \providecommand{\mat}[1]{\begin{matrix} #1 \end{matrix}}
+\providecommand{\AbsMat}[1]{\begin{vmatrix} #1 \end{vmatrix}}
+
+\providecommand{\EPair}[2]{\left\{ #1 \; ; \; \begin{pmatrix} #2 \end{pmatrix} \right\}}
 
 \providecommand{\Tr}[1]{{#1}^{\mathrm{T}}}
 \providecommand{\He}[1]{{#1}^{\mathrm{H}}}
@@ -67,10 +80,14 @@
 
 \providecommand{\Integ}[2]{\int \! #1 \; \mathrm{d} #2}
 \providecommand{\integ}[4]{\int\limits_{#1}^{#2} \! #3 \; \mathrm{d} #4}
+\providecommand{\Ev}[3]{\left[ #1 \right]_{#2}^{#3}}
 
 <!--- Misc --->
 
 \providecommand{\OO}[1]{\mathcal{O}\left(#1\right)}
+
 \providecommand{\nth}[1]{{#1}^{\mathrm{th}}}
+
 \providecommand{\E}[1]{\times 10^{#1}}
+
 \providecommand{\degC}{^{\circ} \mathrm{C}}
